@@ -7,7 +7,7 @@ with open('dd.pkl','rb') as file:
   clf1=pickle.load(file)  
  
 with st.sidebar:
-    selected = option_menu('Proactive Health Gaurd',
+    selected = option_menu('Diabetes Prediction',
 
                            ['Welcome','Diabetes Prediction'],
                         
